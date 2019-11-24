@@ -32,10 +32,15 @@ def list_of_directors(source)
     directors = source[element_index][:name]
     element_index += 1
   end
-  return directors 
+  return directors
 end
 
 def total_gross(source)
+  total_gross_earnings = 0
+  director_index = 0
+
+  while director_index < source.length do
+    total_gross_earnings += gross_for_director( source[director_index]  )
   # Write this implementation
   #
   # Should use methods:
