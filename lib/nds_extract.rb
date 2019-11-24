@@ -40,7 +40,7 @@ def total_gross(source)
   director_index = 0
 
   while director_index < source.length do
-    total_gross_earnings += gross_for_director( source[director_index]  )
+    total_gross_earnings += gross_for_director( source[director_index] )
   # Write this implementation
   #
   # Should use methods:
