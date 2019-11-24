@@ -28,6 +28,7 @@ def list_of_directors(source)
   directors = []
   director_index = 0
 
+  while director_index < source.length 
 
 
 end
