@@ -25,7 +25,10 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  directors = {}
+  directors = []
+  director_index = 0
+
+
 
 end
 
